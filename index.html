@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>The Isle</title>
+
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+</head>
+
+<body>
+	<div class="page-wrapper">
+	    <!-- Preloader -->
+	    <div class="preloader"></div>
+
+		<!-- Main Header / Header Style Two -->
+	    <header class="main-header header-style-two">
+	        
+	        <!-- Header Upper -->
+	        <div class="header-upper">
+	            <div class="outer-container clearfix">
+					<!--Info-->
+					<div class="logo-outer">
+						<div class="logo"><a href="index.html"><img src="images/isle-logo.png" class="pt-2" style="max-height: 80px;" alt="" title=""></a></div>
+					</div>
+
+					<!--Nav Box-->
+					<div class="nav-outer clearfix">
+						<!--Mobile Navigation Toggler For Mobile-->
+						<div class="mobile-nav-toggler"><span class="icon flaticon-menu-1"></span></div>
+						<nav class="main-menu navbar-expand-md navbar-light">
+							<div class="navbar-header">
+								<!-- Toggle Button -->      
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="icon flaticon-menu-1"></span>
+								</button>
+							</div>
+							
+							<div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
+								<ul class="navigation clearfix">
+									<li class="active"><a href="index.html">Home <div class="active-bar"></div></a></li>
+	            					<li><a href="locations.html">Locations</a></li>
+	            					<li><a href="rooms.html">Services</a></li>
+	            					<li><a href="gallery.html">Gallery</a></li>
+	            					<li><a href="promos.html">Amenities</a></li>
+	            					<li><a href="about.html">About</a></li>
+	                                <li><a href="contact.html">Contact</a></li>
+	                                <li><button type="button" class="theme-btn btn-style-sky rs-mobile" onclick="window.location.href='book.html'"><span class="txt">Book Now</span></button></li>
+								</ul>
+							</div>
+						</nav>
+						<!-- Main Menu End-->
+					</div>
+				</div>
+	            
+	        </div>
+	        <!--End Header Upper-->
+
+	    	<!-- Mobile Menu  -->
+	        <div class="mobile-menu">
+	            <div class="menu-backdrop"></div>
+	            <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
+	            
+	            <nav class="menu-box">
+	                <div class="nav-logo"><a href="index.html"><img src="images/isle-logo.png" alt="" title=""></a></div>
+	                <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
+					<!--Social Links-->
+					<div class="social-links">
+						<ul class="clearfix">
+							<li><a href="#"><span class="fab fa-twitter"></span></a></li>
+							<li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+							<li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+							<li><a href="#"><span class="fab fa-instagram"></span></a></li>
+							<li><a href="#"><span class="fab fa-youtube"></span></a></li>
+						</ul>
+	                </div>
+	            </nav>
+	        </div><!-- End Mobile Menu -->
+
+	    </header>
+	    <!-- End Main Header -->
+
+	   	<!--Page Title-->
+	    <section class="page-hero-banner" style="background-image:url(images/main-slider/home-slider-1.png)">
+	    	<div class="auto-container">
+	    		<div class="row clearfix">
+					<div class="col-md-7">
+						<div class="content">
+							<h2 class="slider-title">Events venues<br> & spaces</h2>
+							<div class="slider-description">Discover & book unique spaces for your upcoming activity</div>
+							<div class="slider-description">Event or production professional? <strong>Let us help you</strong></div>
+						</div>
+					</div>
+
+					<div class="col-md-5">
+						<div class="card centered" style="padding: 20px 20px; margin-top: -100px">
+							<div class="card-body">
+								<div class="inner-column text-center">
+									<h3 style="font-size: 24px">Book an event</h3>
+								</div>
+				                <div class="shop-form pt-5">
+				                    <form method="post" action="">
+				                        <div class="row clearfix">
+
+				                        	<!--Form Group-->
+	                                        <div class="form-group col-md-12 col-sm-12 col-xs-12">
+	                                            <div class="field-label text-left"><small>What are you planning?</small></div>
+	                                            <input type="text" name="field-name" value="" placeholder="Street Address">
+	                                        </div>
+				                                        
+	                                        <!--Form Group-->
+	                                        <div class="form-group col-md-6 col-sm-6 col-xs-12 pt-3">
+	                                        	<div class="field-label text-left"><small>No. of guests? </small></div>
+	                                        	<select name="country">
+	                                                <option>select</option>
+	                                                <option>Pakistan</option>
+	                                                <option>USA</option>
+	                                                <option>CANADA</option>
+	                                                <option>INDIA</option>
+	                                            </select>	
+	                                        </div>
+
+	                                         <div class="form-group col-md-6 col-sm-6 col-xs-12 pt-3">
+	                                            <div class="field-label text-left"><small>When? </small></div>
+	                                            <select name="country">
+	                                                <option>select</option>
+	                                                <option>Pakistan</option>
+	                                                <option>USA</option>
+	                                                <option>CANADA</option>
+	                                                <option>INDIA</option>
+	                                            </select>
+	                                        </div>
+
+	                                        <div class="col-md-12 pt-3">
+												<button type="button" class="theme-btn btn-style-sky"><span class="txt">Search</span></button>
+											</div>
+
+				                        </div>                             
+				                    </form>
+							    </div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+	
+	        </div>
+	    </section>
+
+	     <!--Sidebar Page Container-->
+	    <div class="sidebar-page-container">
+	    	<div class="auto-container">
+	        	<div class="row clearfix">
+	            	
+					<!--Content Side / Services Detail -->
+	                <div class="content-side col-xl-12 col-lg-12 col-md-12 col-sm-12">
+	                	<div class="services-detail">
+							<div class="inner-box">
+								<div class="text">
+									<!-- Two Column -->
+									<div class="two-column">
+										<div class="row clearfix">
+											<div class="content-column col-lg-5 col-md-4 col-sm-12">
+												<div class="inner-column wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+													<h3 class="title-header">Spaces for Your <br> Upcoming Activity</h3>
+													<p class="p-padding">Objectively innovate empowered manufactured products whereas parallel platforms. Holisticly predominate extensible testing procedures for reliable supply chains. Dramatically engage top-line web services.</p>
+													<div class="text">
+														<button type="button" class="theme-btn btn-style-blue"><span class="txt">More about us</span></button>
+													</div>
+												</div>
+											</div>
+
+											<div class="content-column col-lg-7 col-md-7 col-sm-12">
+												<!-- Interior Block -->
+												<div class="row justify-content-start clearfix">
+													<div class="interior-block col-lg-6 col-md-6 col-sm-12">
+														<div class="block-inner">
+															<div class="icon-box">
+																<img src="images/home/icon-2.png" alt="icon">
+															</div>
+															<h3 class="header-title">Perfect Fit</h3>
+															<p>Somethin that is rare beautiful, timeless and crafted</p>
+														</div>
+													</div>
+													
+													<!-- Interior Block -->
+													<div class="interior-block col-lg-6 col-md-6 col-sm-12">
+														<div class="block-inner">
+															<div class="icon-box">
+																<img src="images/home/icon-3.png" alt="icon">
+															</div>
+															<h3 class="header-title">Easy Booking</h3>
+															<p >Somethin that is rare beautiful, timeless and crafted</p>
+														</div>
+													</div>
+													
+													<!-- Interior Block -->
+													<div class="interior-block col-lg-6 col-md-6 col-sm-12">
+														<div class="block-inner">
+															<div class="icon-box">
+																<img src="images/home/icon-4.png" alt="icon">
+															</div>
+															<h3 class="header-title">Unique Spaces</h3>
+															<p >Somethin that is rare beautiful, timeless and crafted</p>
+														</div>
+													</div>
+
+													<!-- Interior Block -->
+													<div class="interior-block col-lg-6 col-md-6 col-sm-12">
+														<div class="block-inner">
+															<div class="icon-box">
+																<img src="images/home/icon-4.png" alt="icon">
+															</div>
+															<h3 class="header-title">Stress-free planning</h3>
+															<p >Somethin that is rare beautiful, timeless and crafted</p>
+														</div>
+													</div>
+													
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	    <!-- Call To Action Section -->
+		<section class="call-to-action-section" style="background-image: url(images/home/img-banner-2.png)">
+			<div class="auto-container">
+				<div class="row justify-content-end clearfix">
+					<div class="col-md-4 float-right">
+						<div class="card card-full-height">
+							<div class="lower-content text-left">
+								<h3 class="title-header">The Venue</h3>
+								<hr>
+								<p class="text text-dark" style="font-size: 16px; text-transform: none; letter-spacing: normal; line-height: 1.5em; text-align: left;">Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+								<button type="button" class="theme-btn btn-style-outline-dark"><span class="txt">Book Now</span></button>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Call To Action Section -->
+
+	    <!--Sidebar Page Container-->
+	    <div class="sidebar-page-container">
+	    	<div class="auto-container">
+	        	<div class="row clearfix">
+	            	
+					<!--Content Side / Services Detail -->
+	                <div class="content-side col-xl-12 col-lg-12 col-md-12 col-sm-12">
+	                	<div class="services-detail">
+							<div class="inner-box">
+								<div class="text">
+									<!-- Two Column -->
+									<div class="two-column">
+										<div class="row clearfix">
+											<div class="content-column col-lg-5 col-md-4 col-sm-12">
+												<div class="inner-column wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+													<h3 class="title-header">Features & <br> Amenities</h3>
+													<p class="p-padding">Objectively innovate empowered manufactured products whereas parallel platforms. Holisticly predominate extensible testing procedures for reliable supply chains. Dramatically engage top-line web services.</p>
+												</div>
+											</div>
+
+											<div class="content-column col-lg-7 col-md-7 col-sm-12">
+												<div class="row inner-column justify-content-center clearfix">
+
+													<div class="col-lg-3 col-md-3 col-sm-12 centered pt-4">
+														<div class="row justify-content-center clearfix wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+															<div class="column">
+																<div class="image">
+																	<img src="images/amenities/amenities-icon-1.png" class="img-ds-sm" alt="" />
+																</div>
+															</div>
+															<div class="column description">
+																<h4 class="txt-title">18,000 Sq ft. Space</h4>
+															</div>
+														</div>
+													</div>
+
+													<div class="col-lg-3 col-md-3 col-sm-12 centered pt-4">
+														<div class="row justify-content-center clearfix wow fadeInUp" data-wow-delay="250ms" data-wow-duration="1500ms">
+															<div class="column">
+																<div class="image">
+																	<img src="images/amenities/amenities-icon-2.png" class="img-ds-sm" alt="" />
+																</div>
+															</div>
+															<div class="column description">
+																<h4 class="txt-title">Built-in A/V System</h4>
+															</div>
+														</div>
+													</div>
+
+													<div class="col-lg-3 col-md-3 col-sm-12 centered pt-4">
+														<div class="row justify-content-center clearfix wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
+															<div class="column">
+																<div class="image">
+																	<img src="images/amenities/amenities-icon-3.png" class="img-ds-sm" alt="" />
+																</div>
+															</div>
+															<div class="column description">
+																<h4 class="txt-title">High-speed WIFI</h4>
+															</div>
+														</div>
+													</div>
+
+													<div class="col-lg-3 col-md-3 col-sm-12 centered pt-4">
+														<div class="row justify-content-center clearfix wow fadeInUp" data-wow-delay="750ms" data-wow-duration="1500ms">
+															<div class="column">
+																<div class="image">
+																	<img src="images/amenities/amenities-icon-4.png" class="img-ds-sm" alt="" />
+																</div>
+															</div>
+															<div class="column description">
+																<h4 class="txt-title">Projector & Screens</h4>
+															</div>
+														</div>
+													</div>
+
+													<div class="col-lg-3 col-md-3 col-sm-12 centered pt-4">
+														<div class="row justify-content-center clearfix wow fadeInUp" data-wow-delay="1000ms" data-wow-duration="1500ms">
+															<div class="column">
+																<div class="image">
+																	<img src="images/amenities/amenities-icon-5.png" class="img-ds-sm" alt="" />
+																</div>
+															</div>
+															<div class="column description">
+																<h4 class="txt-title">Catering Pantries</h4>
+															</div>
+														</div>
+													</div>
+
+													<div class="col-lg-3 col-md-3 col-sm-12 centered pt-4">
+														<div class="row justify-content-center clearfix wow fadeInUp" data-wow-delay="1250ms" data-wow-duration="1500ms">
+															<div class="column">
+																<div class="image">
+																	<img src="images/amenities/amenities-icon-6.png" class="img-ds-sm" alt="" />
+																</div>
+															</div>
+															<div class="column description">
+																<h4 class="txt-title">Control Room</h4>
+															</div>
+														</div>
+													</div>
+
+													<div class="col-lg-3 col-md-3 col-sm-12 centered pt-4">
+														<div class="row justify-content-center clearfix wow fadeInUp" data-wow-delay="1500ms" data-wow-duration="1500ms">
+															<div class="column">
+																<div class="image">
+																	<img src="images/amenities/amenities-icon-7.png" class="img-ds-sm" alt="" />
+																</div>
+															</div>
+															<div class="column description">
+																<h4 class="txt-title">Modular Air Wall Partitions</h4>
+															</div>
+														</div>
+													</div>
+
+													<div class="col-lg-3 col-md-3 col-sm-12 centered pt-4">
+														<div class="row justify-content-center clearfix wow fadeInUp" data-wow-delay="1750ms" data-wow-duration="1500ms">
+															<div class="column">
+																<div class="image">
+																	<img src="images/amenities/amenities-icon-8.png" class="img-ds-sm" alt="" />
+																</div>
+															</div>
+															<div class="column description">
+																<h4 class="txt-title">On-site Parking</h4>
+															</div>
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Services Page Section -->
+		<section class="services-page-section">
+			<div class="auto-container">
+				<!--Content Side / Services Detail -->
+                <div class="content-side col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                	<div class="services-detail">
+						<div class="inner-box">
+							<div class="text">
+								<!-- Two Column -->
+								<div class="two-column">
+									<div class="row clearfix">
+										<!-- Card 1 -->
+										<div class="col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="750ms" data-wow-duration="1500ms">
+											<div class="inner-column">
+												<h3 class="title-header">Completely <br> customizable</h3>
+												<p class="p-padding">Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+												<div class="text">
+													<button type="button" class="theme-btn btn-style-blue"><span class="txt">More about us</span></button>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-6 col-md-6 col-sm-12 float-right">
+											<div class="image">
+												<img src="images/home/img-banner-1.png" alt="" />
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="two-column pt-4">
+									<div class="row clearfix">
+										<!-- Card 2 -->
+										<div class="col-lg-6 col-md-6 col-sm-12 float-right">
+											<div class="image">
+												<img src="images/home/img-banner-1.png" alt="" />
+											</div>
+										</div>
+										<div class="col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="750ms" data-wow-duration="1500ms">
+											<div class="inner-column" style="padding: 50px">
+												<h3 class="title-header">Digital Facade</h3>
+												<p class="p-padding">Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+												<div class="text">
+													<button type="button" class="theme-btn btn-style-blue"><span class="txt">Book Now</span></button>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>					
+
+
+	   	<!-- Services Page Section -->
+		<section class="services-page-section">
+			<div class="auto-container">
+				
+				<div class="row justify-content-center">
+					<div class="col-md-7 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="inner-column text-center">
+							<h3 class="centered">Room & Suites</h3>
+						</div>
+						<div class="text centered pt-3">Amazing holidays for your holidays and weekends</div>
+					</div>
+				</div>
+				
+				<div class="row justify-content-center clearfix pt-5">
+					
+					<!-- Service Block -->
+					<div class="service-block-three style-two col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<a href=""><img src="images/home/room-img-1.png" alt="" /></a>
+							<div class="lower-content text-left">
+								<h3 class="news-title"><a href="">Superior Double Room</a></h3>
+								<div class="text">The 16 Japanese-style rooms of the annex have been completely refurbished with a design that expresses tranquility and...</div>
+								<div class="text text-left pt-4">
+									<button type="button" class="theme-btn btn-style-sky"><span class="txt">Book Now</span></button>
+									<a href="" class="find-out-more">See Details</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Service Block -->
+					<div class="service-block-three style-two col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box wow fadeInUp" data-wow-delay="250ms" data-wow-duration="1500ms">
+							<a href=""><img src="images/home/room-img-2.png" alt="" /></a>
+							<div class="lower-content text-left">
+								<h3 class="news-title"><a href="">Superior Deck</a></h3>
+								<div class="text">The 16 Japanese-style rooms of the annex have been completely refurbished with a design that expresses tranquility and...</div>
+								<div class="text text-left pt-4">
+									<button type="button" class="theme-btn btn-style-sky"><span class="txt">Book Now</span></button>
+									<a href="" class="find-out-more">See Details</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Service Block -->
+					<div class="service-block-three style-two col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
+							<a href=""><img src="images/home/room-img-3.png" alt="" /></a>
+							<div class="lower-content text-left">
+								<h3 class="news-title"><a href="">Superior Awesome Room</a></h3>
+								<div class="text">The 16 Japanese-style rooms of the annex have been completely refurbished with a design that expresses tranquility and...</div>
+
+								<div class="text text-left pt-4">
+									<button type="button" class="theme-btn btn-style-sky"><span class="txt">Book Now</span></button>
+									<a href="" class="find-out-more"><span>See Details</span></a>								
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-12 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="text text-center">
+							<button type="button" class="theme-btn btn-style-outline-dark"><span class="txt">See More Rooms</span></button>
+						</div>
+					</div>
+					
+				</div>
+
+			</div>
+		</section>
+		<!-- End Story Section -->
+
+		<!-- Millennial Resorts Gallery Section -->
+		<section class="news-section">
+			<div class="auto-container">
+				<!-- Sec Title -->
+				<div class="row clearfix justify-content-center">
+					<div class="col-md-7 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="inner-column text-center">
+							<h3 class="centered">Check our Gallery</h3>
+						</div>
+						<div class="text centered pt-3">Let's face it we're your dream venue</div>
+					</div>
+
+					<div class="col-md-12 pt-5 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+
+						<!-- Flickity HTML init -->
+						<div class="owl-carousel owl-theme" id="owl-gallery">
+						    <img class="owl-lazy" data-src="images/gallery/gallery-img-1.png" alt="">
+						    <img class="owl-lazy" data-src="images/gallery/gallery-img-2.png" alt="">
+						    <img class="owl-lazy" data-src="images/gallery/gallery-img-3.png" alt="">
+						    <img class="owl-lazy" data-src="images/gallery/gallery-img-4.png" alt="">
+						    <img class="owl-lazy" data-src="images/gallery/gallery-img-5.png" alt="">
+						    <img class="owl-lazy" data-src="images/gallery/gallery-img-6.png" alt="">
+						    <img class="owl-lazy" data-src="images/gallery/gallery-img-3.png" alt="">
+						    <img class="owl-lazy" data-src="images/gallery/gallery-img-4.png" alt="">
+						</div>
+						
+					</div>
+				</div>
+
+				<div class="row justify-content-center clearfix">
+					<div class="col-lg-12 col-md-12 col-sm-12 centered wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="text social">Share isle on Social Media and Shine with us</div> 
+					
+						<ul class="social-media">
+							<li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+							<li><a href="#"><span class="fab fa-twitter"></span></a></li>
+							<li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+							<li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<!-- End Millennial Resorts Gallery Section -->
+
+		<!-- Call To Action Section -->
+		<section class="call-to-action-section" style="background-image: url(images/home/banner-holder.png)">
+			<div class="auto-container centered">
+				<h2>Get a quote</h2>
+				<div class="text text-center" style="position: relative; text-align: center !important; font-size: 18px; text-transform: none; letter-spacing: normal;">Submit an application, and one of our managers will contact you shortly to review your event's details.</div>
+				<a href="contact.html" class="theme-btn btn-style-two"><span class="txt">Book Now</span></a>
+			</div>
+		</section>
+		<!-- End Call To Action Section -->
+
+		<!--Main Footer-->
+	    <footer class="main-footer">
+			<div class="auto-container">
+	        	<!--Widgets Section-->
+	            <div class="widgets-section">
+	            	<div class="row clearfix">
+	                	
+	                    <!--big column-->
+	                    <div class="big-column col-lg-4 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+	                        <div class="row clearfix">
+	                        
+	                            <!--Footer Column-->
+	                            <div class="footer-column col-lg-12 col-md-12 col-sm-12">
+	                                <div class="footer-widget logo-widget">
+										<div class="logo">
+	                                    	<a href="index.html"><img src="images/isle-logo-white.png" alt="" /></a>
+	                                    </div>
+	                                    <div class="text text-white">Something that is rare, beautiful, timeless, and crafted on a commitment to excellence, innovation</div>
+	                                    <ul class="social-icons">
+	                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+	                                        <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+	                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+	                                        <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+	                                    </ul>
+									</div>
+								</div>
+							
+							</div>
+						</div>
+
+						<!--big column-->
+	                    <div class="big-column col-lg-4 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="250ms" data-wow-duration="1500ms">
+	                        <div class="row clearfix">
+
+								<!--Footer Column-->
+	                            <div class="footer-column col-lg-12 col-md-12 col-sm-12">
+	                                <div class="footer-widget links-widget">
+	                                	<h2>Quick links</h2>
+										<div class="widget-content">
+											<ul class="list">
+	                                        	<li><a href="#">Home</a></li>
+	                                            <li><a href="#">About Us</a></li>
+	                                            <li><a href="#">Projects</a></li>
+	                                            <li><a href="#">Locations</a></li>
+	                                            <li><a href="#">Contact Us</a></li>
+	                                        </ul>
+	                                    </div>
+									</div>
+								</div>
+							
+							</div>
+						</div>
+						
+						
+						<!--big column-->
+	                    <div class="big-column col-lg-4 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
+	                        <div class="row clearfix">
+	                        
+	                            <!--Footer Column-->
+								<div class="footer-column col-lg-12 col-md-12 col-sm-12">
+	                                <div class="footer-widget links-widget">
+	                                	<h2>Visit our sister properties</h2>
+										<div class="widget-content">
+											<ul class="list">
+	                                        	<li><a href="#">Cocoons</a></li>
+	                                            <li><a href="#">Aquaria</a></li>
+	                                            <li><a href="#">Aqua</a></li>
+	                                            <li><a href="#">Boardwalk</a></li>
+	                                            <li><a href="#">The Walk</a></li>
+	                                        </ul>
+	                                    </div>
+									</div>
+								</div>
+							
+							</div>
+						</div>
+						
+					</div>
+				</div>
+
+				<!--Footer Bottom-->
+	            <div class="footer-bottom clearfix wow fadeInUp" data-wow-delay="750ms" data-wow-duration="1500ms">
+	                <div class="pull-left">
+	                    <div class="copyright">&copy; 2020 Copyright. Crusoe Cabins. All rights reserved.</div>
+	                </div>
+	                <div class="pull-right">
+	                    <a href=""><img src="images/millennial-resorts-logo-white.png" class="logo-footer-bottom" alt=""></a>
+	                </div>
+	            </div>
+
+			</div>
+		</footer>
+
+	</div>
+
+	<!--Scroll to top-->
+	<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+	<!--Scroll to top-->
+
+	<!-- JavaScript -->
+	<script src="js/jquery.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.fancybox.js"></script>
+	<script src="js/owl.js"></script>
+	<script src="js/wow.js"></script>
+	<script src="js/appear.js"></script>
+	<script src="js/scrollbar.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
